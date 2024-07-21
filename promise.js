@@ -1,3 +1,24 @@
+
+// Fetch user data with a valid ID
+getUserData(1)
+    .then(user => {
+        console.log('User data:', user); // Log user data when promise resolves
+    })
+    .catch(error => {
+        console.error('Error:', error.message); // Log error when promise rejects
+    });
+
+// Fetch user data with an invalid ID
+getUserData(3)
+    .then(user => {
+        console.log('User data:', user); // Log user data when promise resolves
+    })
+    .catch(error => {
+        console.error('Error:', error.message); // Log error when promise rejects
+    });
+
+
+
 // Create a promise
 // Function to simulate fetching user data
 function getUserData(userId) {
