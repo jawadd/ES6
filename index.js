@@ -1,27 +1,47 @@
-let contacts = ["Ali", "Khan", "Jan"];
-// The spread operator will create a new copy of the contacts and store it in
-//personalFriends , we can add new contacts only to our personal friends
+/*
+    **** Challenge ****
+    
+    Imagine you are going out to do some grocery shopping.
+    So you have an array called shoppingList with all the products you want to buy.
+    
+    Now that you are inside of the shop, you have a basket with all the products from your list, but you want to add a few more.
+    
+    Create a new array called shoppingBasket, that will be a copy of the shoppingList array, and add some new products into it. 
 
-let personalFriends = [ "Salim", ...contacts, "Kalim" ];
+*/
 
-contacts.push("Kiei");
-
-console.log(personalFriends);
-
-//using spread operator with objects
-let person = {
-    name: "Adnan",
-    age: 25,
-    city: "Mardan"
+const shoppingList = ["eggs", "milk", "butter"];
+const newShoppingList = ['Vegetables',...shoppingList,"fruit"]
+for (const item of newShoppingList){
+    console.log(item);
 }
 
-let employee = {
-    ...person,
-    salary: 50000,
-    position: "Software Developer"
-}
 
-console.log(employee);
+
+// let contacts = ["Ali", "Khan", "Jan"];
+// // The spread operator will create a new copy of the contacts and store it in
+// //personalFriends , we can add new contacts only to our personal friends
+
+// let personalFriends = [ "Salim", ...contacts, "Kalim" ];
+
+// contacts.push("Kiei");
+
+// console.log(personalFriends);
+
+// //using spread operator with objects
+// let person = {
+//     name: "Adnan",
+//     age: 25,
+//     city: "Mardan"
+// }
+
+// let employee = {
+//     ...person,
+//     salary: 50000,
+//     position: "Software Developer"
+// }
+
+// console.log(employee);
 
 // const students = [ 
 //     { name: "Jawad", city: "Islamabad" },
@@ -56,14 +76,6 @@ console.log(employee);
 // }
 
 
-
-
-
-
-
-
-
-
 // function addressMaker(address) {
 //      const{city,state} =address; //object destruction
 //     const newAddress = {
@@ -78,24 +90,6 @@ console.log(employee);
 // }
 
 // addressMaker({city: 'Mardan', state: 'KP'});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // function addressMaker(city, state) {
