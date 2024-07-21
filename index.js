@@ -1,12 +1,20 @@
-function add(...nums) {
-    let total =0;
-    for (const num of nums){
-        total+=num;
-    }
-    console.log(`The total is ${total}`);
-}
+// import { data } from './example.js';
+// let updatedData = data;
 
-add(4, 5, 7, 8, 12)
+// updatedData.push(5)
+// console.log(updatedData);
+
+
+
+// function add(...nums) {
+//     let total =0;
+//     for (const num of nums){
+//         total+=num;
+//     }
+//     console.log(`The total is ${total}`);
+// }
+
+// add(4, 5, 7, 8, 12)
 
 
 
