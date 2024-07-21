@@ -1,8 +1,17 @@
-let [firstName, middleName, lastName] = ['Jawad', '', 'Hussain'];
+function addressMaker(city, state) {
+    //we can simplify this to
+    const newAdress = {newcity:city, newstate:state};
+    const newAdresss = {city,state}; //object literal
+    console.log(newAdress);
+    console.log(newAdresss);
+}
 
-// lastName = 'We can change this one to replace the earlier one';
+addressMaker('Mardan', 'KP');
+// let [firstName, middleName, lastName] = ['Jawad', '', 'Hussain'];
 
-console.log(lastName)
+// // lastName = 'We can change this one to replace the earlier one';
+
+// console.log(lastName)
 
 // const student = {
 //     name: "Jawad",
