@@ -1,18 +1,28 @@
-const player = {
-    name: 'Jawad Hussain',
-    club: 'Balasoor',
-    address: {
-      city: 'Mardan'
+const student = {
+    name: "Jawad",
+    age: 30,
+    projects: {
+        diceGame: "Two player dice game using JavaScript"
     }
-  };
+}
+
+const{name, age , projects:{diceGame}}=student;
+console.log(`${name} aged ${age} has completed "${diceGame}"`)
+// const player = {
+//     name: 'Jawad Hussain',
+//     club: 'Balasoor',
+//     address: {
+//       city: 'Mardan'
+//     }
+//   };
   
-  // console.log( player.address.city );
+//   // console.log( player.address.city );
   
-  const { name, club, address: { city } } = player;
+//   const { name, club, address: { city } } = player;
   
-  console.log(`${name} plays for ${club}`);
+//   console.log(`${name} plays for ${club}`);
   
-  console.log(`${name} lives in ${city}`);
+//   console.log(`${name} lives in ${city}`);
   
   
 
