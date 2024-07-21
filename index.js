@@ -1,3 +1,16 @@
+function add(...nums) {
+    let total =0;
+    for (const num of nums){
+        total+=num;
+    }
+    console.log(`The total is ${total}`);
+}
+
+add(4, 5, 7, 8, 12)
+
+
+
+
 /*
     **** Challenge ****
     
@@ -10,11 +23,11 @@
 
 */
 
-const shoppingList = ["eggs", "milk", "butter"];
-const newShoppingList = ['Vegetables',...shoppingList,"fruit"]
-for (const item of newShoppingList){
-    console.log(item);
-}
+// const shoppingList = ["eggs", "milk", "butter"];
+// const newShoppingList = ['Vegetables',...shoppingList,"fruit"]
+// for (const item of newShoppingList){
+//     console.log(item);
+// }
 
 
 
