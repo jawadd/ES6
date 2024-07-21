@@ -1,3 +1,14 @@
+let example = 'Jawad';
+
+
+
+console.log(example.padStart(10, 'a'));
+console.log(example.padEnd(10, 'a'));
+
+
+// import { add } from './exportChallenge.js';
+// console.log(add(1,2));
+
 // import { data } from './example.js';
 // let updatedData = data;
 
