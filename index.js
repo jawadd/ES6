@@ -1,13 +1,19 @@
-const student = {
-    name: "Jawad",
-    age: 30,
-    projects: {
-        diceGame: "Two player dice game using JavaScript"
-    }
-}
+let [firstName, middleName, lastName] = ['Jawad', '', 'Hussain'];
 
-const{name, age , projects:{diceGame}}=student;
-console.log(`${name} aged ${age} has completed "${diceGame}"`)
+// lastName = 'We can change this one to replace the earlier one';
+
+console.log(lastName)
+
+// const student = {
+//     name: "Jawad",
+//     age: 30,
+//     projects: {
+//         diceGame: "Two player dice game using JavaScript"
+//     }
+// }
+
+// const{name, age , projects:{diceGame}}=student;
+// console.log(`${name} aged ${age} has completed "${diceGame}"`)
 // const player = {
 //     name: 'Jawad Hussain',
 //     club: 'Balasoor',
