@@ -1,17 +1,42 @@
-const students = [ 
-    { name: "Jawad", city: "Islamabad" },
-    { name: "Hussain", city: "Mardan"},
-    { name: "Muhammad Affan", city: "Katlang" }
-]
+let contacts = ["Ali", "Khan", "Jan"];
+// The spread operator will create a new copy of the contacts and store it in
+//personalFriends , we can add new contacts only to our personal friends
 
-for (const student of students) {
-    console.log(`${student.name} lives in  ${student.city}`);
+let personalFriends = [ "Salim", ...contacts, "Kalim" ];
+
+contacts.push("Kiei");
+
+console.log(personalFriends);
+
+//using spread operator with objects
+let person = {
+    name: "Adnan",
+    age: 25,
+    city: "Mardan"
 }
 
-
-for (const {name,city} of students) {
-    console.log(`${name} lives in  ${city}`);
+let employee = {
+    ...person,
+    salary: 50000,
+    position: "Software Developer"
 }
+
+console.log(employee);
+
+// const students = [ 
+//     { name: "Jawad", city: "Islamabad" },
+//     { name: "Hussain", city: "Mardan"},
+//     { name: "Muhammad Affan", city: "Katlang" }
+// ]
+
+// for (const student of students) {
+//     console.log(`${student.name} lives in  ${student.city}`);
+// }
+
+
+// for (const {name,city} of students) {
+//     console.log(`${name} lives in  ${city}`);
+// }
 
 
 // //for of works with each iterable
