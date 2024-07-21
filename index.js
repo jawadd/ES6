@@ -1,18 +1,34 @@
-//for of works with each iterable
-let fullName = "Jawad Hussain";
+const students = [ 
+    { name: "Jawad", city: "Islamabad" },
+    { name: "Hussain", city: "Mardan"},
+    { name: "Muhammad Affan", city: "Katlang" }
+]
 
-
-for (const char of fullName) {
-    console.log(char);
+for (const student of students) {
+    console.log(`${student.name} lives in  ${student.city}`);
 }
 
-let incomes = [62000, 67000, 75000];
-let total = 0;
 
-for (const income of incomes) {
-    console.log(income);
-    total += income;
+for (const {name,city} of students) {
+    console.log(`${name} lives in  ${city}`);
 }
+
+
+// //for of works with each iterable
+// let fullName = "Jawad Hussain";
+
+
+// for (const char of fullName) {
+//     console.log(char);
+// }
+
+// let incomes = [62000, 67000, 75000];
+// let total = 0;
+
+// for (const income of incomes) {
+//     console.log(income);
+//     total += income;
+// }
 
 
 
