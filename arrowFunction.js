@@ -1,10 +1,14 @@
+// includes function , and not supported by IE, return true or false
+let numArray = [1,2,3,4,5];
+
+console.log(numArray.includes(2))
 
 // default parameter for function
-const leadSinger = (artist = "someone") => {
-    console.log(`${artist} is the lead singer of Cold Play`);
-}
+// const leadSinger = (artist = "someone") => {
+//     console.log(`${artist} is the lead singer of Cold Play`);
+// }
 
-leadSinger("Khan");
+// leadSinger("Khan");
 
 /*
 **** Challenge *****
@@ -19,18 +23,7 @@ But if you dont pass a value to your parameter food, it should print
 "I'm going to buy something from the grocery shop"
 
 */
-const buyFood = (food = "something") => {
-    console.log(` I am going to buy ${food} from the grocery shop `);
-}
-
-buyFood("milk");
-buyFood();
-
-
-
-
-
-
+//
 // //function declaration
 // function breakfastMenu() {
 //     return "I'm going to scrambled eggs for breakfast";
