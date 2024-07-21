@@ -1,12 +1,57 @@
-function addressMaker(city, state) {
-    //we can simplify this to
-    const newAdress = {newcity:city, newstate:state};
-    const newAdresss = {city,state}; //object literal
-    console.log(newAdress);
-    console.log(newAdresss);
-}
 
-addressMaker('Mardan', 'KP');
+
+
+
+
+
+
+
+
+
+
+// function addressMaker(address) {
+//      const{city,state} =address; //object destruction
+//     const newAddress = {
+//         // object literals
+//         city,
+//         state,
+//         country: 'Pakistan'
+//     };
+//     // Template literals
+//     console.log(`${newAddress.city}, ${newAddress.state}, ${newAddress.country}`)
+    
+// }
+
+// addressMaker({city: 'Mardan', state: 'KP'});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function addressMaker(city, state) {
+//     //we can simplify this to
+//     const newAdress = {newcity:city, newstate:state};
+//     const newAdresss = {city,state}; //object literal
+//     console.log(newAdress);
+//     console.log(newAdresss);
+// }
+
+// addressMaker('Mardan', 'KP');
 // let [firstName, middleName, lastName] = ['Jawad', '', 'Hussain'];
 
 // // lastName = 'We can change this one to replace the earlier one';
