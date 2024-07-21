@@ -1,9 +1,17 @@
-let example = 'Jawad';
+import { Animal, Cat } from './animal.js';
+
+let cat = new Cat('Cat', 4);
+
+cat.makeNoise();
+
+console.log(cat.metaData)
+
+// let example = 'Jawad';
 
 
 
-console.log(example.padStart(10, 'a'));
-console.log(example.padEnd(10, 'a'));
+// console.log(example.padStart(10, 'a'));
+// console.log(example.padEnd(10, 'a'));
 
 
 // import { add } from './exportChallenge.js';
